@@ -10,7 +10,7 @@ class User:
     """
     Сущность пользователя
 
-    :param int oid: Id объекта (object-identifier)
+    :param int oid: Id объекта
     :param datetime created_at: Дата создания объекта
     """
     oid: UserId
